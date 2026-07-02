@@ -1,0 +1,10 @@
+name = "dynamic-sites"
+main = "src/index.js"
+compatibility_date = "2024-06-01"
+
+[[r2_buckets]]
+binding = "SITES_BUCKET"
+bucket_name = "sites-bucket"
+
+# Optional: routes if you want to bind to a domain from wrangler
+# routes = ["example.com/*"]
